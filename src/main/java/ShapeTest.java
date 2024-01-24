@@ -6,12 +6,6 @@ public class ShapeTest {
         //quad1.printName();
         System.out.println(circle1.getArea());
         System.out.println(quad1.getArea());
-        Circle circle2 = new Circle("circel2", 7, 9);
-        Circle circle3 = new Circle("circel3", 3, 10);
-        System.out.println(circle2);
-        System.out.println(circle3);
-
-
 
     }
 
