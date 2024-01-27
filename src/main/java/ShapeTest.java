@@ -1,11 +1,17 @@
 public class ShapeTest {
     public static void main(String[] args) {
-        Circle circle1 = new Circle("circle1", 5, 1);
-        circle1.printName();
-        Quad quad1 = new Quad("quad1", 8, 2);
-        //quad1.printName();
-        System.out.println(circle1.getArea());
-        System.out.println(quad1.getArea());
+        PrintShape print = new PrintShape();
+        Circle circle = new Circle("circle");
+        Square square = new Square("square");
+        Triangle triangle = new Triangle("triangle");
+        Oval oval = new Oval("oval");
+        Diamond diamond = new Diamond("diamond");
+        print.printShape(circle);
+        print.printShape(square);
+        print.printShape(triangle);
+        print.printShape(oval);
+        print.printShape(diamond);
+
 
     }
 

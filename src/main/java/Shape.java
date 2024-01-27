@@ -1,17 +1,13 @@
 public abstract class Shape {
-    String name;
-    double area;
-    final double PI = 3.14;
-    public abstract void printName();
+    private String name;
 
-    public static final void printShape1(){
-        System.out.println("From Shape");
+    public String getName() {
+        return name;
     }
 
-    public abstract double getArea();
+    public abstract void printName();
 
-    public Shape(String name, double area) {
+    public Shape(String name) {
         this.name = name;
-        this.area = area;
     }
 }
